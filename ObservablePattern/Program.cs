@@ -8,6 +8,13 @@ namespace ObservablePattern
     {
         static void Main(string[] args)
         {
+            /**
+             * References
+             * https://www.devmedia.com.br/como-implementar-o-design-pattern-observer-no-net/32846
+             * 
+             * 
+             */
+
             ISubject emailControl = new EmailControl();
 
             var first = new User("First");
